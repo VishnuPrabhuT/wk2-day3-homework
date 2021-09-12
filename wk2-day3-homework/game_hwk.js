@@ -1,5 +1,5 @@
 //on page load -> generate game board;
-window.onload = function () {
+window.onload = () => {
     console.log("Page Loaded")
     setRandomTileOrder(12);
     setTiles();
